@@ -27,6 +27,7 @@
         background-position: right center;
         background-size: 2px 100%;
         transition: 0.3s ease;
+        padding: 15px;
     }
 
     .col-3::after {
@@ -39,15 +40,11 @@
         transform: rotate(-45deg);
         position: absolute;
         right: -12px;
-        bottom: 99px;
+        bottom: 115px;
         transition: 0.3s ease;
     }
 
     .col-3:hover {
-        background-color: #F6F9F9;
-        transform: translateY(-15px);
-    }
-    .col-3:hover::after {
-        background-color: #F6F9F9;
+        transform: translatex(5px);
     }
 }
