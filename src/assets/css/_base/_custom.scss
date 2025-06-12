@@ -1,0 +1,54 @@
+:root {
+    --button_color_main1: #0287C3;
+    --button_color_main1_hover: #C0E9FC;
+    --button_color_main2: #F75E2D;
+    --button_color_main2_hover: #FA9E82;
+    --text_color-main1: #fff;
+    --text_color-main2: #000;
+    --text_color_main3: #03a9f4;
+    --bg_color_main1: #03A9F4;
+    --bg_color_main2: #0287c3;
+    --bg_color_main3: #E6F7FE;
+}
+
+
+.btn_blue{
+    background-color: var(--button_color_main1);
+    width: 18%;
+    border-radius: 3px;
+    padding: 10px;
+    transition: 0.3s ease;
+    font-size: 14px;
+    font-family: Poppins_Medium;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--text_color-main1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+        background-color: var(--button_color_main1_hover);
+        font-size: 17px;
+        color: var(--text_color-main1);
+    }
+}
+
+.btn_orange{
+    background-color: var(--button_color_main2);
+    width: 18%;
+    text-align: center;
+    border-radius: 3px;
+    padding: 10px;
+    transition: 0.3s ease;
+    font-size: 14px;
+    font-family: Poppins_Medium;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--text_color-main1);
+    &:hover {
+        background-color: var(--button_color_main2_hover);
+        font-size: 17px;
+        color: var(--text_color-main1);
+    }
+}
+

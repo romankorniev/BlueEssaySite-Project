@@ -1,0 +1,102 @@
+.banner {
+    height: 630px;
+    background-image: url(../../../assets/img/img-cloud.png);
+    background-color: var(--bg_color_main3);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    position: relative;
+    h2 {
+        font-weight: 700;
+    }
+    h1 {
+    color: var(--text_color_main3);
+    margin-top: 140px;
+    font-weight: 700;
+    }
+    hr {
+    width: 545px;
+    height: 3px;
+    color: var(--button_color_main2);
+    margin: 30px 0;
+    }
+}
+
+.banner .btn_orange {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    font-size: 14px;
+    width: 220px;
+    height: 50px;
+    text-transform: uppercase;
+    &:hover {
+        background-color: var(--button_color_main2_hover);
+        font-size: 17px;
+    }
+}
+
+
+.option_select {
+    background-color: var(--bg_color_main1);
+    height: 135px;
+    position: absolute;
+    bottom: -10%;
+    width: 1170px;
+}
+
+.img_girl {
+    position: relative;
+    top: 110px;
+    z-index: 2;
+}
+
+select, input {
+    width: 202px;
+    height: 50px;
+    border-radius: 3px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    color: #656a70;
+    font-weight: 400;
+    font-family: Poppins_Light;
+    background-color: #f6f9f9;
+}
+
+label, input {
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: Poppins_Light;
+}
+
+.option_select .btn_blue {
+    width: 202px;
+    height: 50px;
+    border-radius: 3px;
+}
+
+.plus_minus {
+    width: 202px;
+    margin-bottom: 15px;
+    border: 1px solid #656a70;
+    border-radius: 3px;
+    button {
+        width: 50px;
+        height: 50px;
+        border: none;
+        border-radius: 3px;
+        filter: drop-shadow(0px 1px 2.5px rgba(0,0,0,0.1));
+        background-color: #ffffff;
+        border: 1px solid #d8dadb;
+    }
+    span {
+        width: 50%;
+        background-color: #f6f9f9;
+        font-size: 13px;
+        color: #656a70;
+        font-weight: 400;
+        font-family: Poppins_Light;
+    }
+}
