@@ -1,0 +1,31 @@
+.upfooter {
+    height: 105px;
+    background-color: var(--bg_color_main1);
+    .row {
+        height: 105px;
+    }
+
+    ul {
+        font-size: 12px;
+        letter-spacing: 0px;
+        line-height: 16px;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-family: Poppins_Regular;
+        list-style: none;
+        padding: 0;
+        li {
+        transition: 0.3s ease;
+        &:hover {
+            transform: translateY(-5px);
+        }
+    }
+    }
+
+    ul a {
+        color: var(--text_color-main1);
+        cursor: pointer;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}
