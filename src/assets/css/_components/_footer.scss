@@ -29,3 +29,43 @@
         text-transform: uppercase;
     }
 }
+
+.midfooter {
+    background-color: var(--bg_color_main1);
+    height: 370px;
+
+    .container {
+        border-top: 1px solid rgba($color: white, $alpha: 0.52);
+        border-bottom: 1px solid rgba($color: white, $alpha: 0.52);
+    }
+
+    .col-3 {
+        height: 365px;
+    }
+
+    .col-3 h4 {
+        font-size: 22px;
+        color: var(--text_color-main1);
+        font-weight: 500;
+        font-family: Poppins_Regular;
+        margin: 20px 0;
+    }
+
+    .col-3 h5 {
+        font-size: 15px;
+        line-height: 28px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: Poppins_ExtraLight;
+        transition: 0.3s ease;
+        &:hover{
+            transform: translateX(10px);
+        }
+    }
+
+    .col-3 a {
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+}
