@@ -69,3 +69,123 @@
     }
     
 }
+
+.underfooter {
+    height: 125px;
+    background-color: var(--bg_color_main1);
+
+    .row {
+        height: 125px;
+        
+        .footer_p p {
+            font-size: 15px;
+            line-height: 21px;
+            color: #ffffff;
+            font-family: Poppins_ExtraLight;
+        }
+    }
+
+    .facebook_img, .x_img, .pinterest_img, .google_img {
+        position: relative;
+        transition: 0.3s ease;
+        &:hover {
+            transform: translateY(-5px);
+        }
+    }
+
+    .facebook_img::after {
+        content: '';
+        position: absolute;
+        background-image: url(../../../assets/img/facebook.png);
+        display: inline-block;
+        width: 34px;
+        height: 34px; 
+        left: 0px;
+    }
+
+    .facebook_img:hover::after {
+        background-image: url(../../../assets/img/facebook-hover.png);
+
+    }
+
+    .x_img::after {
+        content: '';
+        position: absolute;
+        background-image: url(../../../assets/img/twitter.png);
+        display: inline-block;
+        width: 34px;
+        height: 34px; 
+        left: 0px;
+    }
+
+    .x_img:hover::after {
+        background-image: url(../../../assets/img/twitter-hover.png);
+    }
+
+    .pinterest_img::after {
+        content: '';
+        position: absolute;
+        background-image: url(../../../assets/img/pinterest.png);
+        display: inline-block;
+        width: 34px;
+        height: 34px; 
+        left: 0px;
+    }
+
+    .pinterest_img:hover::after {
+        background-image: url(../../../assets/img/pinterest-hover.png);
+    }
+
+    .google_img::after {
+        content: '';
+        position: absolute;
+        background-image: url(../../../assets/img/google-plus.png);
+        display: inline-block;
+        width: 34px;
+        height: 34px; 
+        left: 0px;
+    }
+
+    .google_img:hover::after {
+        background-image: url(../../../assets/img/google-plus-hover.png);
+    }
+
+    .col-4 p {
+        font-size: 16px;
+        line-height: 16px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: Poppins_Medium;
+        margin: 0;
+    }
+
+    .col-4 img {
+        display: inline-block;
+        margin: 20px;
+    }
+
+    .col-4 span {
+        font-family: Poppins_Bold;
+        font-size: 20px;
+    }
+
+    .email_img p {
+        margin: 0;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: Poppins_Medium;
+    }
+
+    .email_img span {
+        font-family: Poppins_Bold;
+    }
+
+    .email_img img {
+        display: inline-block;
+        margin: 20px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
