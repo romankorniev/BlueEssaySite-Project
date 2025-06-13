@@ -1,0 +1,35 @@
+.feedback {
+    height: 485px;
+    margin-top: 240px;
+
+    .feedback_containter {
+        height: 480px;
+    }
+    .feedback_block {
+        width: 612px;
+        
+        img {
+            display: inline-block;
+            margin: 20px 0;
+        }
+
+        h6 {
+            font-size: 17px;
+            color: var(--bg_color_main2);
+            font-weight: 600;
+            margin: 10px 0;
+        }
+
+        p:nth-last-child(1) {
+            font-size: 13px;
+            color: #a3a6a9;
+            font-weight: 300;
+            margin: 5px 0;
+        }
+    }
+
+    .arrow {
+        border: none;
+        background-color: #fff;
+    }
+}
