@@ -1,0 +1,28 @@
+@media screen and (max-width:1235px){
+    .option_select {
+    width: 1120px;
+    }
+}
+
+@media screen and (max-width:1199px){
+    .option_select {
+    max-width: 960px;
+    position: relative;
+    height: 155px;
+    }
+
+    .advantages .col-4 {
+        width: 300px
+    } 
+
+    .underfooter .email_img img {
+    margin: 10px;   
+    }
+    .underfooter .col-4 img {
+    margin: 10px;
+    }
+
+    .works .col-3::after {
+        bottom: 127px;
+    }
+}

@@ -1,6 +1,10 @@
 .header {
     background-color: var(--bg_color_main1);
     height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    opacity: 0.97;
 }
 
 .header div, ul {
