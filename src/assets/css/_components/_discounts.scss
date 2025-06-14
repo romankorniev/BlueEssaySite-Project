@@ -54,11 +54,11 @@
             }
 
         .grid_text{
-            border: 3px dotted #e1e1e7;
+            border: 5px dotted #e1e1e7;
             background-color: var(--text_color-main1);
-            transition: 0.5s ease-in;
+            transition: 0.3s ease-in;
             &:hover {
-                transform: translateY(-10px);
+                transform: translateY(-20px);
             }
         }
         
